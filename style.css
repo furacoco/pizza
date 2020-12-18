@@ -1,0 +1,97 @@
+﻿@charset "UTF-8";
+
+/* 全体のCSS */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+img{
+	vertical-align: bottom;
+}
+
+body{
+	background: url(img/body_bg.jpg);
+	font-family: sans-serif;
+}
+
+.wrapper{
+	background: #fff;
+	width: 830px;
+	margin: 0 auto;
+}
+
+li{
+	list-style: none;
+}
+
+/* header */
+
+h1{
+	margin-bottom: 10px;
+}
+
+nav{
+	width: 200px;
+	float: left;
+	background: url(img/navi_bg.jpg) no-repeat;
+}
+
+a{
+	display: block;
+}
+
+a:hover img{
+	visibility: hidden;
+}
+
+/* main */
+
+main{
+	width: 610px;
+	float: right;
+	margin-right: 10px;
+}
+
+.main-img{
+	margin-bottom: 5px;
+}
+
+h3{
+	width: 150px;
+	float: left;
+}
+
+dl{
+	width: 378px;
+	float: right;
+}
+
+dt{
+	border: solid #93270E;
+	border-width: 3px 0 3px;
+	padding: 4px 0 2px;
+}
+
+dd{
+	font-size: 11px;
+	padding: 5px 0;
+	line-height: 2;
+}
+section{
+	width: 548px;
+	height: 150px;
+	clear: both;
+	border: solid 2px #93270E;
+	padding: 20px 20px 15px;
+	margin: 5px 10px 10px;
+}
+/* footer */
+
+footer{
+	clear: both;
+	text-align: center;
+	padding: 10px;
+}
+
